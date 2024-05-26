@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #DAE0EA;
+    font-family: 'Inter';
+    font-size: 1.8rem;
+}
+section {
+    background-color: #DAE0EA;
+    display: grid;
+    place-content: center;
+    
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.text-area h2 {
+    font-weight: bold;
+    font-size: 4.5rem;
+    margin-top: 7.5rem;
+    margin-bottom: 3rem;
+}
+.image-area{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.image-area div {
+    width: 40%;
+}
+img {
+    width: 100%;
+}
