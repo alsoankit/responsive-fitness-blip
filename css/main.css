@@ -126,6 +126,7 @@ div.item.three {
     align-items: center;
     width: 100%;
     max-width: 1200px;
+    padding-left: 5rem;
   }
   .image-area {
     flex: 1;
